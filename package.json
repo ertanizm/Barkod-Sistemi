@@ -14,9 +14,13 @@
     "react-bootstrap": "^2.10.0",
     "react-data-grid": "^7.0.0-beta.42",
     "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.4",
     "react-icons": "^5.0.1",
+    "react-live-chat-loader": "^2.9.1",
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
+    "sweetalert2": "^11.10.5",
+    "sweetalert2-react-content": "^5.0.7",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

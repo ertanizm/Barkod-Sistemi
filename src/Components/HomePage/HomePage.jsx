@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import { AiTwotoneDollar,AiTwotoneCreditCard } from 'react-icons/ai';
 import "../HomePage/Home.css"
 import { AgGridReact } from 'ag-grid-react'; 
-import "ag-grid-community/styles/ag-grid.css"; // Core CSS
+import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-quartz.css";
 
 
@@ -18,8 +18,6 @@ const [rowData, setRowData] = React.useState([
   { make: "Ford", model: "F-Series", price: 33850, electric: false },
   { make: "Toyota", model: "Corolla", price: 29600, electric: false },
 ]);
-
-// Column Definitions: Defines & controls grid columns.
 const [colDefs, setColDefs] = React.useState([
   { field: "make" },
   { field: "model" },
@@ -195,5 +193,4 @@ const [colDefs, setColDefs] = React.useState([
     </Container>
   );
 }
-
 export default HomePage;

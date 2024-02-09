@@ -1,0 +1,47 @@
+.stokBtn {
+    background-color: #FE7A36;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.odemeBtn{
+    background-color: #3652AD;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 30%;
+    height: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.odemeBtn:hover {
+    background-color: #228dcd;
+    color: white;
+}
+body{
+    background-color: #E9F6FF;
+    overflow-y: hidden;
+}
+.stokBtn:hover {
+    background-color: #228dcd;
+}
+.still{
+    max-height:50%;
+    overflow-y: auto;
+}
+.üstcubuk{
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+    background-color: #3652AD;
+    color:white ;
+}
